@@ -1,0 +1,40 @@
+{
+  "resolves": [
+    {
+      "rootPackageName": "svg_renderer",
+      "modulePath": ".",
+      "packagePath": {
+        "commonPaths": [],
+        "platformPaths": [
+          {
+            "_0": "package.src-dir",
+            "_1": "C:\\Users\\haojinlong\\Desktop\\dian11\\src"
+          }
+        ]
+      },
+      "fullName": "svg_renderer",
+      "isMacroPackage": false,
+      "output-type": "executable",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "std-requires": [
+        "std.collection",
+        "std.convert",
+        "std.fs",
+        "std.math",
+        "std.sort"
+      ],
+      "c_libs": {},
+      "hasTestFiles": false,
+      "hasProdFiles": true,
+      "hasTestsInProdFiles": false,
+      "accessLevel": "public"
+    }
+  ],
+  "binDeps": {},
+  "crossBinDeps": {}
+}
