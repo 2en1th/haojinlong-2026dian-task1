@@ -68,11 +68,3 @@ out\svg_renderer.exe testcase\4-cat.svg output\cat.bmp 2000 2000
 └── README.md
 ```
 
-## 已知限制
-
-- 不支持 `stroke-width`、`stroke-linecap` 等 stroke 渲染
-- 不支持渐变填充（linearGradient / radialGradient）
-- 不支持透明度（opacity / fill-opacity）
-- 不支持 `<text>` 文本元素
-- 不支持 `<use>`、`<clipPath>`、`<mask>`
-- 弧线命令（A/a）使用线性插值近似
